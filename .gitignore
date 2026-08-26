@@ -1,0 +1,63 @@
+# Qt / qmake
+*.user
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+.qmake.stash
+.qmake.cache
+Makefile
+Makefile.*
+*_resource.rc
+
+# moc / uic / rcc
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Build
+build/
+build-*/
+debug/
+release/
+Debug/
+Release/
+out/
+bin/
+lib/
+
+# Objects / binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+cmake_install.cmake
+compile_commands.json
+
+# IDE / OS
+.vs/
+.vscode/
+*.suo
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+credentials.json
+*.pem
+
+# Temp
+_agent_*.txt
